@@ -8,34 +8,34 @@
 		<h1>Biodata Diri</h1>
 	<tr>
 		<td>
-			<form>
+			<form method="POST" action="form1.php">
 				<label for="dname">Nama Depan :</label>
-				<input type="text" id="dname" name="dname"><br><br>
+				<input type="text" name="dname"><br><br>
 				<label for="bname">Nama Belakang :</label>
-				<input type="text" id="bname" name="bname"><br><br>
+				<input type="text" name="bname"><br><br>
 				<tr>
 					<label for="Prestasi">Prestasi Yang Pernah Diraih:</label>
-					<textarea id="Prestasi" rows="4" cols="50"></textarea><br><br>
+					<textarea name="Prestasi" rows="4" cols="50"></textarea><br><br>
 				</tr>
 				<tr>
 					<td>Hobi :</td><br><br>
-					<input type="checkbox" id="hobi1" name="hobi1" value="Volly">
-					<label for="hobi1">Volly Ball</label><br>
-					<input type="checkbox" id="hobi2" name="hobi2" value="Basket">
-					<label for="hobi2">Basket Ball</label><br>
-					<input type="checkbox" id="hobi3" name="hobi3" value="Game">
-					<label for="hobi3">Game Online</label><br><br>
+					<input type="checkbox" name="hobi" value="Volly Ball">
+					<label for="hobi">Volly Ball</label><br>
+					<input type="checkbox" name="hobi" value="Basket Ball">
+					<label for="hobi">Basket Ball</label><br>
+					<input type="checkbox" name="hobi" value="Game Online">
+					<label for="hobi">Game Online</label><br><br>
 				</tr>
 				<tr>
 					<td>Agama</td><td>:
-							<select type="dropdown">
+							<select type="dropdown" name="agama">
 								<option value=""></option>
-								<option value="Islam">Islam</option>
-								<option value="Kristen Protestan">Kristen Prostestan</option>
-								<option value="Katolik">Katolik</option>
-								<option value="Hindu">Hindu</option>
-								<option value="Budha">Budha</option>
-								<option value="Kong Hu Cu">Kong Hu Cu</option>
+								<option name="agama" value="Islam">Islam</option>
+								<option name="agama" value="Kristen Protestan">Kristen Prostestan</option>
+								<option name="agama" value="Katolik">Katolik</option>
+								<option name="agama" value="Hindu">Hindu</option>
+								<option name="agama" value="Budha">Budha</option>
+								<option name="agama" value="Kong Hu Cu">Kong Hu Cu</option>
 							</select><br><br>
 						</td>
 				</tr>
